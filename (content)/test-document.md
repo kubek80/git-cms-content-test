@@ -37,7 +37,7 @@ This is ~~strikethrough~~ text.
 ### Task Lists
 
 - [x] Completed task
-- [ ] Incomplete task
+- [x] Incomplete task
 - [ ] Another task
 
 ## Links
