@@ -6,7 +6,7 @@ This is a paragraph with **bold text**, *italic text*, and ***bold italic text**
 
 This is ~~strikethrough~~ text.
 
-## Headings
+## Headings A
 
 # Heading 1
 ## Heading 2
