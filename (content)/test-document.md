@@ -2,18 +2,24 @@
 
 ## Basic Text Formatting
 
-This is a paragraph with **bold text**, *italic text*, and ***bold italic text***. You can also use __underscores__ for bold and _underscores_ for italics.
+This is a paragraph with **bold text**, *italic text*, and ***bold italic text***. You can also use **underscores** for bold and *underscores* for italics.
 
 This is ~~strikethrough~~ text.
 
-## Headings
+## Headings AA
+
 ## TEST 2123
 
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 
 ## Lists
@@ -36,9 +42,9 @@ This is ~~strikethrough~~ text.
 
 ### Task Lists
 
-- [x] Completed task
-- [x] Incomplete task
-- [ ] Another task
+* [x] Completed task
+* [x] Incomplete task
+* [ ] Another task
 
 ## Links
 
@@ -51,38 +57,32 @@ This is ~~strikethrough~~ text.
 
 ## Blockquotes
 
-> This is a blockquote
-> 
-> It can span multiple lines
->
->> Nested blockquotes are possible too
+> This is a blockquoteIt can span multiple lines> Nested blockquotes are possible too
 
 ## Code
 
 Inline `code` looks like this.
 
-```javascript
+```jsjavascript
 // Code block with syntax highlighting
 function helloWorld() {
   console.log("Hello, world!");
 }
-```
-
-## Tables
+```js## Tables
 
 | Header 1 | Header 2 | Header 3 |
-|----------|:--------:|---------:|
-| Left     | Center   | Right    |
-| aligned  | aligned  | aligned  |
-| cell     | cell     | cell     |
+| -------- | :------: | -------: |
+| Left     |  Center  |    Right |
+| aligned  |  aligned |  aligned |
+| cell     |   cell   |     cell |
 
 ## Horizontal Rules
 
----
+***
 
 ***
 
-___
+***
 
 ## Escaping Characters
 
@@ -90,9 +90,9 @@ ___
 
 ## Footnotes
 
-Here's a sentence with a footnote.[^1]
+Here's a sentence with a footnote.\[^1]
 
-[^1]: This is the footnote.
+\[^1]: This is the footnote.
 
 ## Definition Lists
 
@@ -104,9 +104,9 @@ Term
 
 <details>
   <summary>Click to expand!</summary>
-  
+
   ### This content is hidden until clicked
-  
+
   You can use HTML within Markdown for advanced formatting needs.
 </details>
 
@@ -122,23 +122,21 @@ $$
 
 ## Emojis (in many Markdown processors)
 
-:smile: :heart: :thumbsup: :rocket:
+\:smile: \:heart: \:thumbsup: \:rocket:
 
 ## Highlights (in some Markdown flavors)
 
-==This text is highlighted== (not supported in all Markdown processors)
+\==This text is highlighted== (not supported in all Markdown processors)
 
 ## Diagrams (in some Markdown processors like Mermaid)
 
-```mermaid
+```jsmermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-```
-
-## References
+```js## References
 
 * [Markdown Guide](https://www.markdownguide.org/)
 * [GitHub Flavored Markdown](https://github.github.com/gfm/)
