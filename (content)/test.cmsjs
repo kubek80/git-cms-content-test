@@ -1,1 +1,23 @@
-[object Object]
+export default {
+  // Content section - contains the HTML content from the editor
+  content: "<p>gfsgffgdf</p><p>gdfgdf</p><p>dgfdf</p><p>gasd</p>",
+  
+  // Metadata section - contains SEO related information
+  metadata: {
+  "title": "Example Page Title",
+  "description": "This is an example page description that would be used for SEO purposes. It should be informative and contain relevant keywords.",
+  "keywords": "example, cms, content management, seo",
+  "canonicalUrl": "https://example.com/sample-page"
+},
+  
+  // Social section - contains social sharing information
+  social: {
+  "ogTitle": "Share This Example Page",
+  "ogDescription": "Check out this example page created with GitCMS, a lightweight content management system for developers.",
+  "ogImage": "https://example.com/images/social-share.jpg",
+  "twitterTitle": "Example Page on Twitter",
+  "twitterDescription": "This is how the page will appear when shared on Twitter. Customize this description for better engagement.",
+  "twitterImage": "https://example.com/images/twitter-share.jpg",
+  "twitterCardType": "summary_large_image"
+}
+};
