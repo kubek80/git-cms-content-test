@@ -63,7 +63,7 @@ This is ~~strikethrough~~ text.
 
 Inline `code` looks like this.
 
-```jsjs
+````js
 // Code block with syntax highlighting
 function helloWorld() {
   console.log("Hello, world!");
@@ -140,3 +140,4 @@ graph TD;
 
 * [Markdown Guide](https://www.markdownguide.org/)
 * [GitHub Flavored Markdown](https://github.github.com/gfm/)
+````
