@@ -63,13 +63,12 @@ This is ~~strikethrough~~ text.
 
 Inline `code` looks like this.
 
-\`\`\`js\`jsjavascript
+```jsjs
 // Code block with syntax highlighting
 function helloWorld() {
-console.log("Hello, world!");
+  console.log("Hello, world!");
 }
-
-```js`jsjs## Tables
+```js## Tables
 
 | Header 1 | Header 2 | Header 3 |
 | -------- | :------: | -------: |
@@ -131,15 +130,13 @@ $$
 
 ## Diagrams (in some Markdown processors like Mermaid)
 
-```jsjsjsmermaid
+```jsmermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-```jsjsjs## References
+```js## References
 
 * [Markdown Guide](https://www.markdownguide.org/)
 * [GitHub Flavored Markdown](https://github.github.com/gfm/)
-```jsjs`
-```js`
