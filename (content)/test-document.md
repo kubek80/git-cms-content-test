@@ -63,12 +63,14 @@ This is ~~strikethrough~~ text.
 
 Inline `code` looks like this.
 
-````js
+```js
 // Code block with syntax highlighting
 function helloWorld() {
   console.log("Hello, world!");
 }
-```js## Tables
+```
+
+## Tables
 
 | Header 1 | Header 2 | Header 3 |
 | -------- | :------: | -------: |
