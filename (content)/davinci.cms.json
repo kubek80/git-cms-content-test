@@ -1,18 +1,18 @@
 {
-  "content": "",
+  "content": "<h1>Sample Page Title</h1><p>This is an example of content created with the GitCMS editor. You can create rich content with formatting, headings, lists, and more.</p><ul><li>Feature one</li><li>Feature two</li><li>Feature three</li></ul>",
   "metadata": {
-    "title": "",
-    "description": "",
-    "keywords": "",
-    "canonicalUrl": ""
+    "title": "Example Page Title",
+    "description": "This is an example page description that would be used for SEO purposes. It should be informative and contain relevant keywords.",
+    "keywords": "example, cms, content management, seo",
+    "canonicalUrl": "https://example.com/sample-page"
   },
   "social": {
-    "ogTitle": "",
-    "ogDescription": "",
-    "ogImage": "",
-    "twitterTitle": "",
-    "twitterDescription": "",
-    "twitterImage": "",
+    "ogTitle": "Share This Example Page",
+    "ogDescription": "Check out this example page created with GitCMS, a lightweight content management system for developers.",
+    "ogImage": "https://example.com/images/social-share.jpg",
+    "twitterTitle": "Example Page on Twitter",
+    "twitterDescription": "This is how the page will appear when shared on Twitter. Customize this description for better engagement.",
+    "twitterImage": "https://example.com/images/twitter-share.jpg",
     "twitterCardType": "summary_large_image"
   }
 }
